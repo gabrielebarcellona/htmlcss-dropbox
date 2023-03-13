@@ -37,3 +37,47 @@ nav{
     height: 30px;
     margin-top: -20px;
 }
+
+.section1{
+    background-color: rgba(126, 192, 212, 0.984);
+    padding-top: 50px;
+}
+
+.container1{
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    gap: 3rem;
+}
+
+div img{
+    width: 100%;
+}
+.description{
+    flex-basis:50% ;
+    margin-top: 50px;
+   
+}
+
+h1{
+    font-size: 60px;
+    width: 800px;
+    margin: auto;
+}
+
+.description *{
+    margin-top: 30px;
+}
+
+.description button{
+    border: solid rgb(73, 136, 250) ;
+    background-color: rgb(73, 136, 250);
+    width: 200px;
+    height: 30px;
+    color: white;
+}
+
+.description i{
+    font-size: 30px;
+    margin-top: 30px;
+}
