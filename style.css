@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+
 nav{
     display: flex;
     height: 60px;
@@ -204,4 +208,40 @@ hr{
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.section3{
+    display: flex;
+    margin-top: 100px;
+    gap: 5rem;
+}
+.container-text2{
+    margin-top: 50px;
+}
+.container-text2 p{
+    margin-top: 30px;
+}
+.container-text2 button{
+    margin-top: 30px;
+    border: solid  grey;
+    background-color: white;
+    height: 40px;
+    width: 120px;
+}
+.section4{
+    margin-top: 50px;
+}
+.section4 >h2{
+    font-size: 40px;
+}
+.container4{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.cards2{
+    width: 30%;
+}
+.cards2 p{
+    margin-top: 20px;
 }
