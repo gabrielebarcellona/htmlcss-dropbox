@@ -368,12 +368,15 @@ width: 50%;
 .container6{
     display: flex;
     background-color:  rgba(126, 192, 212, 0.984) ;
+    margin-bottom: 100px;
+    
 }
 
 .container-aggiuntivo2{
     display: flex;
     max-width: 1000px;
     margin: auto;
+    margin-bottom:100px ;
 
 }
 .container6 div{
@@ -392,4 +395,22 @@ width: 50%;
 .big-font{
     font-size: 35px;
     color: brown;
+}
+
+.section5{
+    margin: auto;
+    max-width: 900px;
+}
+
+.section5 hr{
+    width: 100%;
+    opacity: 50%;
+}
+.section5 ul{
+    list-style: none;
+}
+
+.section5 i{
+    margin-left: 300px;
+    font-size: 12px;
 }
