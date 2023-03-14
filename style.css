@@ -344,7 +344,7 @@ hr{
 }
 .second-container5{
     aspect-ratio: 1 / 1;
-    width: 33%;
+    width: calc(100% / 3);
     background-color:#f5f5f5;
 }
 .container-aggiuntivo{
@@ -356,7 +356,7 @@ hr{
 }
 .third-container5{
     aspect-ratio: 1 / 1;
-    width: 33%;
+    width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
 }
