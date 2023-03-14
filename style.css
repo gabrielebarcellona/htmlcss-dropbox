@@ -25,6 +25,10 @@ nav{
     margin-top:20px ;
     margin-left: 20px;
 }
+
+.nav-container:hover{
+    cursor: pointer;
+}
 .nav-container div{
     margin-inline: 20px;
 }
@@ -33,19 +37,27 @@ nav{
     display: flex;
     margin-top: 20px;
     margin-right: 20px;
+}
+.nav-container2:hover{
+    cursor: pointer;
 
 }
 
 .nav-container2 div{
     margin-inline: 20px;
 }
-.nav-bottom{
+.nav-button{
     border: solid  #0061ff;
     background-color:  #0061ff;;
     width: 50px;
     color: white;
     height: 30px;
     margin-top: -20px;
+}
+
+.nav-button:hover{
+    cursor: pointer;
+    opacity: 70%;
 }
 
 .section1{
@@ -92,6 +104,12 @@ h1{
     width: 200px;
     height: 30px;
     color: white;
+    
+}
+
+.blue-button:hover{
+    cursor: pointer;
+    opacity: 70%;
 }
 
 .description i{
@@ -393,6 +411,11 @@ width: 50%;
     width: 200px;
     height: 30px;
     color: rgb(0, 0, 0);
+}
+
+.white-button:hover{
+    cursor: pointer;
+    opacity: 70%;
 }
 
 .big-font{
