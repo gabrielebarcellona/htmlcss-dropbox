@@ -283,7 +283,7 @@ hr{
 
 .first-container5{
     aspect-ratio: 1 / 1;
-    width: 33%;
+    width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
 }
@@ -294,6 +294,8 @@ hr{
     align-items: center;
     width: 50%;
     background-color:#a2d39b; 
+    border: solid  #d1e9cd;
+    border-width: 12px;
 }
 .quadrato-verde img{
     max-width: 50%;
