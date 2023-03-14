@@ -6,12 +6,18 @@
 
 body{
     font-family:'Times New Roman', Times, serif;
+    margin-top: 60px;
 }
 
 nav{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
     height: 60px;
     justify-content: space-between;
+    z-index: 90;
 }
 
 .nav-container{
@@ -264,23 +270,51 @@ hr{
     flex-wrap: wrap;
 }
 .quadrato-verde{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     background-color: rgb(79, 154, 79);  
 }
 .quadrato-verde img{
+    max-width: 50%;
 }
 .quadrato-bordò{
     width: 50%;
     background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.quadrato-bordò img{
+    max-width: 50%;
+}
+
 .quadrato-celeste{
     width: 50%;
     background-color: rgb(35, 148, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.quadrato-celeste img{
+    max-width: 50%;
+}
+
 .quadrato-rosso{
     width: 50%;
     background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.quadrato-rosso img{
+    max-width: 50%;
+}
+
 .logo{
     max-width: 200px;
 }
@@ -303,12 +337,59 @@ hr{
 .quadrato-verde{
     width: 50%;
     background-color: rgb(79, 154, 79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .quadrato-giallo{
     width: 50%;
-    background-color:yellow
+    background-color:yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.quadrato-giallo img{
+    width: 50%;
+}
+
 .quadrato-blue{
     width: 50%;
-    background-color: blue
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrato-blue img{
+width: 50%;
+}
+
+.container6{
+    display: flex;
+    background-color:  rgba(126, 192, 212, 0.984) ;
+}
+
+.container-aggiuntivo2{
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+
+}
+.container6 div{
+    margin-top: 50px;
+    margin-inline: 80px;
+}
+
+.white-button{
+    border: solid rgb(255, 255, 255) ;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.big-font{
+    font-size: 35px;
+    color: brown;
 }
