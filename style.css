@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
     margin-top: 60px;
 }
 
@@ -40,8 +40,8 @@ nav{
     margin-inline: 20px;
 }
 .nav-bottom{
-    border: solid rgb(65, 65, 250) ;
-    background-color: rgb(65, 65, 250);
+    border: solid  #0061ff;
+    background-color:  #0061ff;;
     width: 50px;
     color: white;
     height: 30px;
@@ -49,7 +49,7 @@ nav{
 }
 
 .section1{
-    background-color: rgba(126, 192, 212, 0.984);
+    background-color: #b4d0e7;
     padding-top: 50px;
 }
 
@@ -70,26 +70,25 @@ div img{
 position: relative;
 top: 70px;
 
+
 }
 .description{
-    flex-basis:50% ;
-   
-   
+    flex-basis:50% ;  
 }
 
 h1{
-    font-size: 60px;
+    font-size: 50px;
     width: 750px;
-    margin: auto;
+    margin-inline: auto;
 }
 
 .description *{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .blue-button{
-    border: solid rgb(73, 136, 250) ;
-    background-color: rgb(73, 136, 250);
+    border: solid #0061ff;
+    background-color:  #0061ff;
     width: 200px;
     height: 30px;
     color: white;
@@ -114,7 +113,7 @@ h1{
 }
 
 .button1{
-border: rgb(58, 97, 171) 15px ;
+border: #0061ff;
 background-color:white;
 border-width: 4px;
 border-style: solid;
@@ -265,23 +264,26 @@ hr{
 }
 
 .first-container5{
+    aspect-ratio: 1 / 1;
     width: 33%;
     display: flex;
     flex-wrap: wrap;
 }
 .quadrato-verde{
+    aspect-ratio: 1 / 1;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
-    background-color: rgb(79, 154, 79);  
+    background-color:#a2d39b; 
 }
 .quadrato-verde img{
     max-width: 50%;
 }
 .quadrato-bordò{
+    aspect-ratio: 1 / 1;
     width: 50%;
-    background-color: brown;
+    background-color: #61082b;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -292,8 +294,9 @@ hr{
 }
 
 .quadrato-celeste{
+    aspect-ratio: 1 / 1;
     width: 50%;
-    background-color: rgb(35, 148, 241);
+    background-color:#0093ce;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -304,8 +307,9 @@ hr{
 }
 
 .quadrato-rosso{
+    aspect-ratio: 1 / 1;
     width: 50%;
-    background-color: red;
+    background-color: #ff1c1c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -319,8 +323,9 @@ hr{
     max-width: 200px;
 }
 .second-container5{
+    aspect-ratio: 1 / 1;
     width: 33%;
-    background-color: rgb(207, 184, 184);
+    background-color:#f5f5f5;
 }
 .container-aggiuntivo{
     margin-left: 40px;
@@ -330,20 +335,16 @@ hr{
     margin-bottom: 40px;
 }
 .third-container5{
+    aspect-ratio: 1 / 1;
     width: 33%;
     display: flex;
     flex-wrap: wrap;
 }
-.quadrato-verde{
-    width: 50%;
-    background-color: rgb(79, 154, 79);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .quadrato-giallo{
+    aspect-ratio: 1 / 1;
     width: 50%;
-    background-color:yellow;
+    background-color:#ffd830;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -354,8 +355,9 @@ hr{
 }
 
 .quadrato-blue{
+    aspect-ratio: 1 / 1;
     width: 50%;
-    background-color: blue;
+    background-color:#0d2481;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -411,7 +413,7 @@ width: 50%;
 }
 
 .section5 i{
-    margin-left: 300px;
+    margin-left: 200px;
     font-size: 12px;
 }
 
